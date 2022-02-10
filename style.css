@@ -4,6 +4,8 @@ body {
 }
 header {
   font-size: 20px;
+  position: fixed;
+  width: 100%;
 }
 a {
   color: black;
@@ -12,18 +14,20 @@ a {
 span {
   padding: 3% 3% 0 3%;
 }
+/* menu */
 .menu_bar {
   padding: 15px 10px 10px 15px;
-  background-color: #fff;
+  background-color: rgba(109, 103, 103, 0.103);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .rome,
 .info,
 .history,
 .food,
-.pic_place {
-  color: black;
+.pic_palce {
+  color: #fff;
 }
 /* colossem */
 .home_pic1 {
@@ -88,7 +92,7 @@ span {
   background-color: darkkhaki;
   display: flex;
   justify-content: space-around;
-  align-items: center;s
+  align-items: center;
 }
 .bottom {
   display: inline-block;
