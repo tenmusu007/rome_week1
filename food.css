@@ -1,0 +1,54 @@
+body {
+    background-color: #fff;
+    margin: 0;
+  }
+  header {
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  span {
+    padding: 3% 3% 0 3%;
+  }
+  /* menu */
+  .menu_bar {
+    padding: 15px 10px 10px 15px;
+    background-color: rgba(109, 103, 103, 0.103);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .rome,
+  .info,
+  .history,
+  .food,
+  .pic_palce {
+    color: #fff;
+  }
+/* food */
+.food_title{
+    padding:10% 5% 2.5% 5%;
+    text-align: center;
+}
+.pic_foodbox{
+    width: 50%;
+    display: flex;
+}
+.space{
+    margin: 25%;
+}
+.food_pic1{
+    width: 100%;
+}
+.pasta_name{
+    display: flex;
+    justify-content: center;
+}
+.pasta_sent{
+    text-align: justify;
+    padding: 3%;
+}
