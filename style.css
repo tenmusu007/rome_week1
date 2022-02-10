@@ -13,6 +13,9 @@ a {
 }
 span {
   padding: 3% 3% 0 3%;
+
+p {
+  margin: 0;
 }
 /* menu */
 .menu_bar {
@@ -89,7 +92,7 @@ span {
   width: 100%;
   height: 300px;
   margin: 0%;
-  background-color: darkkhaki;
+  background-color: #e7d1c1;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -97,6 +100,8 @@ span {
 .bottom {
   display: inline-block;
   text-align: center;
+  margin: 0%;
+  width: 300px;
 }
 .pic {
   width: 80px;
@@ -104,11 +109,44 @@ span {
 /* footer part style */
 footer {
   width: 100%;
-  height: 200px;
-  text-align: center;
-  background-color: lavender;
+  height: 100px;
+  background-color: #1e1212;
+  display: inline-block;
 }
-.footer_text {
-  color: black;
+.footer {
+  color: white;
   margin: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sentence {
+  font-size: 2em;
+}
+.sentence_1 {
+  font-size: 1.3em;
+}
+.footer_m {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_p {
+}
+.footer_p p {
+  display: inline;
+  border-left: 3px solid #fff;
+  padding: 0 20px;
+}
+.footer_p p:first-child {
+  border: none;
+}
+.footer_i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fi {
+  width: 30px;
+  margin: 10px;
 }
