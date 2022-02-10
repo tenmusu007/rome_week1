@@ -13,10 +13,10 @@ a {
 }
 span {
   padding: 3% 3% 0 3%;
-
-/* p { 
+}
+ p { 
   margin: 0;
-} */
+} 
 /* menu */
 .menu_bar {
   padding: 15px 10px 10px 15px;
@@ -132,8 +132,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.footer_p {
 }
 .footer_p p {
   display: inline;
