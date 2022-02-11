@@ -33,56 +33,127 @@ p {
   width: 100%;
   vertical-align: bottom;
 }
-/* Info*/
-.info_box {
-  width: 100%;
+/* Palatinehill part */
+.palatinehill_part{
   display: flex;
+  justify-content: space-around;
 }
-.sent_info {
-  width: 35%;
-  text-align: center;
+.palatinehill1{
+  width: 70%;
 }
-.pic_box2 {
-  width: 65%;
-}
-.home_pic2 {
+.palatinehillp{
   width: 100%;
   vertical-align: bottom;
 }
+.palatinehill2{
+  width: 30%;
+  padding: 10px;
+}
+.palatinepa{
+  font-size: 1.3rem;
+}
+/* Trevi part */
+.trevi_part{
+    display: flex;
+    height: 400px;
+}
+.trevi1{
+  width: 40%;
+  padding: 10px;
+}
+.trevi1p{
+  font-size: 1.3rem;
+}
+.trevi2{
+  width: 60%;
+}
+.trevip{
+  width: 100%;
+}
 
-/* history */
-.history_space {
+/* Trevi2 part */
+.trevi2_part{
   display: flex;
 }
-.sent_history {
-  text-align: center;
+.trevi21{
+  background-color: aqua;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  transform: rotate(180deg);
+
 }
-.space {
-  margin: 15%;
+.trevi22{
+  width: 80%;
 }
-.pic_box3 {
-  width: 85%;
-}
-.home_pic3 {
+.trevip2{
   width: 100%;
-  height: 100%;
+  vertical-align: bottom;
+}
+.trevi2p{
+  writing-mode: vertical-rl;
+  text-align: center;
+  font-size: 3.5rem;
 }
 
-/* pizza */
-.food_box {
+/* Vatican part */
+.vatican_part{
   display: flex;
 }
-.sent_food {
-  width: 50%;
-  text-align: center;
-}
-.pic_box4 {
-  width: 50%;
-}
-.home_pic4 {
+.vaticanp{
   width: 100%;
-  height: 100%;
+  vertical-align: bottom;
 }
+.vatican1{
+  width: 50%;
+
+}
+.vatican2{
+  width: 50%;
+  padding: 10px;
+}
+.vaticanpa{
+  font-size: 1.3rem;
+}
+/* Bernini part */
+.bernini_part{
+    display: flex;
+    justify-content: center;
+}
+.bernini{
+    width: 30%;
+}
+.bernini_sentence{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.berninip{
+  width: 700px;
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+/* Vittorio part */
+.vittorio_part{
+  display: flex;
+}
+.vittorio1{
+  width: 70%;
+}
+.vittorio{
+  width: 100%;
+  vertical-align: bottom;
+}
+.vittorio2{
+  width: 30%;
+  padding: 10px;
+}
+.vittoriop{
+  font-size: 1.3rem;
+
+}
+
 /* bottom part1 style */
 .bottom_part1 {
   width: 100%;
@@ -102,6 +173,8 @@ p {
 .pic {
   width: 80px;
 }
+
+
 /* footer part style */
 footer {
   width: 100%;
@@ -126,6 +199,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer_p {
 }
 .footer_p p {
   display: inline;
