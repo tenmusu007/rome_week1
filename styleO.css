@@ -4,6 +4,8 @@ body {
 }
 header {
   font-size: 20px;
+  position: fixed;
+  width: 100%;
 }
 a {
   color: black;
@@ -12,95 +14,79 @@ a {
 span {
   padding: 3% 3% 0 3%;
 }
-p {
+ p { 
   margin: 0;
-}
+} 
 /* menu */
 .menu_bar {
   padding: 15px 10px 10px 15px;
-  background-color: #fff;
+  background-color: rgba(109, 103, 103, 0.103);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .rome,
 .info,
 .history,
 .food,
-.pic_place {
-  color: black;
-}
-.rome:hover{
-  opacity: 0.6;
-}
-.info:hover{
-  opacity: 0.6;
-}
-.history:hover{
-  opacity: 0.6;
-}
-.food:hover{
-  opacity: 0.6;
-}
-.pic_palce:hover{
-  opacity: 0.6;
+.pic_palce {
+  color: #fff;
 }
 /* colossem */
-.pic_box1{
+.home_pic1 {
   width: 100%;
-  height: 600px;
-  background-image: url(images/home_colossem.jpg);
-  background-size: cover;
-  background-position: center 63%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-}
-/* .home_pic1 {
-  width: 100%;
-  object-fit: contain;
   vertical-align: bottom;
-
-} */
+}
 /* Infomation*/
 .info_box {
   width: 100%;
   display: flex;
+}
+/*new OS*/
+.people_box {
+padding: 25px;
+  text-align: justify;
+width: 50%;
 }
 .sent_info {
   width: 35%;
   text-align: center;
 }
 .pic_box2 {
-  width: 65%;
+  width: 50%;
+  padding-top: 25px;
 }
 .home_pic2 {
   width: 100%;
   vertical-align: bottom;
 }
 
-/* history */
+/* history *//* history *//* history *//* history */
 .history_space {
   display: flex;
 }
+/*new OS*/
+.economy_box {
+padding: 25px;
+text-align: justify;
+width: 50%;
+}
+
 .sent_history {
-  text-align: center;
+  text-align: right;
 }
 .space {
-  width: 25%;
-  background-image: url(images/roma_word.gif);
-  background-size: 25%;
-  background-attachment: fixed;
-  transform: rotate(-90deg);
-  position: relative;
-
+  margin: 15%;
 }
 .pic_box3 {
-  width: 75%;
+  width: 50%;
+  padding-top: 25px;
 }
 .home_pic3 {
   width: 100%;
-  height: 100%;
-  position: relative;
+}
+.climate_pic5 {
+  width: 100%;
 }
 
 /* pizza */
@@ -109,17 +95,16 @@ p {
 }
 .sent_food {
   width: 50%;
-  text-align: center;
-}
-.sent_food p{
-  padding: 0 5% 0 5%;
+  text-align: justify;
+  padding: 25px;
 }
 .pic_box4 {
   width: 50%;
+  padding-top: 25px;
 }
 .home_pic4 {
-  width: 100%;
-  height: 100%;
+  width: 75%;
+
 }
 
 /* bottom part1 style */
