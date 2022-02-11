@@ -14,9 +14,9 @@ a {
 span {
   padding: 3% 3% 0 3%;
 }
- p { 
+p {
   margin: 0;
-} 
+}
 /* menu */
 .menu_bar {
   padding: 15px 10px 10px 15px;
@@ -30,25 +30,11 @@ span {
 .history,
 .food,
 .pic_palce {
-  color: #fff;
+  color: white;
 }
-.rome:hover{
-  opacity: 0.6;
-}
-.info:hover{
-  opacity: 0.6;
-}
-.history:hover{
-  opacity: 0.6;
-}
-.food:hover{
-  opacity: 0.6;
-}
-.pic_palce:hover{
-  opacity: 0.6;
-}
+
 /* colossem */
-.pic_box1{
+.pic_box1 {
   width: 100%;
   height: 600px;
   background-image: url(images/home_colossem.jpg);
@@ -56,9 +42,6 @@ span {
   background-position: center 63%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
-
-
 }
 /* .home_pic1 {
   width: 100%;
@@ -97,7 +80,6 @@ span {
   background-attachment: fixed;
   transform: rotate(-90deg);
   position: relative;
-
 }
 .pic_box3 {
   width: 75%;
@@ -116,7 +98,7 @@ span {
   width: 50%;
   text-align: center;
 }
-.sent_food p{
+.sent_food p {
   padding: 0 5% 0 5%;
 }
 .pic_box4 {
