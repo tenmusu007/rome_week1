@@ -14,10 +14,9 @@ a {
 span {
   padding: 3% 3% 0 3%;
 }
-p { 
+p {
   margin: 0;
-} 
-/* menu */
+}
 .menu_bar {
   padding: 15px 10px 10px 15px;
   background-color: rgba(109, 103, 103, 0.103);
@@ -30,80 +29,133 @@ p {
 .history,
 .food,
 .pic_palce {
-  color: #fff;
+  color: white;
 }
+
 /* colossem */
 .home_pic1 {
   width: 100%;
   vertical-align: bottom;
 }
-/* Infomation*/
-.info_box {
-  width: 100%;
+
+/* Palatinehill part */
+.palatinehill_part{
   display: flex;
+  justify-content: space-around;
 }
-/*new OS*/
-.people_box {
-padding: 25px;
-  text-align: justify;
-width: 50%;
+.palatinehill1{
+  width: 70%;
 }
-.sent_info {
-  width: 35%;
-  text-align: center;
-}
-.pic_box2 {
-  width: 50%;
-  padding-top: 25px;
-}
-.home_pic2 {
+.palatinehillp{
   width: 100%;
   vertical-align: bottom;
 }
-
-/* history *//* history *//* history *//* history */
-.history_space {
-  display: flex;
+.palatinehill2{
+  width: 30%;
+  padding: 10px;
 }
-/*new OS*/
-.economy_box {
-padding: 25px;
-text-align: justify;
-width: 50%;
+.palatinepa{
+  font-size: 1.3rem;
 }
-
-.sent_history {
-  text-align: right;
+/* Trevi part */
+.trevi_part{
+    display: flex;
+    height: 400px;
 }
-.space {
-  margin: 15%;
+.trevi1{
+  width: 40%;
+  padding: 10px;
 }
-.pic_box3 {
-  width: 50%;
-  padding-top: 25px;
+.trevi1p{
+  font-size: 1.3rem;
 }
-.home_pic3 {
-  width: 100%;
+.trevi2{
+  width: 60%;
 }
-.climate_pic5 {
+.trevip{
   width: 100%;
 }
 
-/* pizza */
-.food_box {
+/* Trevi2 part */
+.trevi2_part{
   display: flex;
 }
-.sent_food {
-  width: 50%;
-  text-align: justify;
-  padding: 25px;
+.trevi21{
+  background-color: aqua;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  transform: rotate(180deg);
+
 }
-.pic_box4 {
-  width: 50%;
-  padding-top: 25px;
+.trevi22{
+  width: 80%;
 }
-.home_pic4 {
-  width: 75%;
+.trevip2{
+  width: 100%;
+  vertical-align: bottom;
+}
+.trevi2p{
+  writing-mode: vertical-rl;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+/* Vatican part */
+.vatican_part{
+  display: flex;
+}
+.vaticanp{
+  width: 100%;
+  vertical-align: bottom;
+}
+.vatican1{
+  width: 50%;
+
+}
+.vatican2{
+  width: 50%;
+  padding: 10px;
+}
+.vaticanpa{
+  font-size: 1.3rem;
+}
+/* Bernini part */
+.bernini_part{
+    display: flex;
+    justify-content: center;
+}
+.bernini{
+    width: 30%;
+}
+.bernini_sentence{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.berninip{
+  width: 700px;
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+/* Vittorio part */
+.vittorio_part{
+  display: flex;
+}
+.vittorio1{
+  width: 70%;
+}
+.vittorio{
+  width: 100%;
+  vertical-align: bottom;
+}
+.vittorio2{
+  width: 30%;
+  padding: 10px;
+}
+.vittoriop{
+  font-size: 1.3rem;
 
 }
 
@@ -126,6 +178,7 @@ width: 50%;
 .pic {
   width: 80px;
 }
+
 
 /* footer part style */
 footer {
