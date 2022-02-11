@@ -4,6 +4,8 @@ body {
 }
 header {
   font-size: 20px;
+  position: fixed;
+  width: 100%;
 }
 a {
   color: black;
@@ -16,18 +18,19 @@ p {
   margin: 0;
 }
 /* menu */
-.menu_bar {
+.menu_bar{
   padding: 15px 10px 10px 15px;
-  background-color: #fff;
+  background-color: rgba(109, 103, 103, 0.103);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .rome,
 .info,
 .history,
 .food,
-.pic_place {
-  color: black;
+.pic_palce {
+  color: white;
 }
 .rome:hover{
   opacity: 0.6;

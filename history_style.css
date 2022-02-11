@@ -4,6 +4,8 @@ body {
 }
 header {
   font-size: 20px;
+  position: fixed;
+  width: 100%;
 }
 a {
   color: black;
@@ -17,22 +19,25 @@ p {
 }
 .menu_bar {
   padding: 15px 10px 10px 15px;
-  background-color: #fff;
+  background-color: rgba(109, 103, 103, 0.103);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .rome,
 .info,
 .history,
 .food,
-.pic_place {
-  color: black;
+.pic_palce {
+  color: white;
 }
+
 /* colossem */
 .home_pic1 {
   width: 100%;
   vertical-align: bottom;
 }
+
 /* Palatinehill part */
 .palatinehill_part{
   display: flex;
@@ -199,8 +204,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.footer_p {
 }
 .footer_p p {
   display: inline;
