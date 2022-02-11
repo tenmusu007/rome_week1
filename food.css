@@ -27,6 +27,9 @@ body {
  h2{
   font-size: 35px
 }
+section{
+  width: 100%;
+}
  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
   /* menu */
   .menu_bar {
@@ -64,14 +67,15 @@ body {
     text-align: center;
 }
 .pic_foodbox{
-    width: 50%;
-    display: flex;
-}
-.space{
-    margin: 25%;
-}
-.food_pic1{
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* .space{
+    margin: 25%;
+} */
+.food_pic1{
+    width: 50%;
 }
 .pasta_name{
     display: flex;
