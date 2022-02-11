@@ -1,9 +1,12 @@
 body {
   background-color: #fff;
   margin: 0;
+  background-color: #ffe2bf54;
+  font-family: 'Playfair Display', serif;
+
 }
 header {
-  font-size: 20px;
+  font-size: 30px;
   position: fixed;
   width: 100%;
 }
@@ -17,6 +20,9 @@ span {
 p {
   margin: 0;
 }
+h2{
+  font-size: 35px
+}
 .menu_bar {
   padding: 15px 10px 10px 15px;
   background-color: rgba(109, 103, 103, 0.103);
@@ -29,7 +35,22 @@ p {
 .history,
 .food,
 .pic_palce {
-  color: white;
+  color: #000;
+}
+.rome:hover{
+  opacity: 0.6;
+}
+.info:hover{
+  opacity: 0.6;
+}
+.history:hover{
+  opacity: 0.6;
+}
+.food:hover{
+  opacity: 0.6;
+}
+.pic_palce:hover{
+  opacity: 0.6;
 }
 
 /* colossem */
@@ -55,7 +76,7 @@ p {
   padding: 10px;
 }
 .palatinepa{
-  font-size: 1.3rem;
+  font-size: 17px;
 }
 /* Trevi part */
 .trevi_part{
@@ -67,7 +88,7 @@ p {
   padding: 10px;
 }
 .trevi1p{
-  font-size: 1.3rem;
+  font-size: 17px;
 }
 .trevi2{
   width: 60%;
@@ -81,7 +102,7 @@ p {
   display: flex;
 }
 .trevi21{
-  background-color: aqua;
+  background-color: #1e1212;
   width: 20%;
   display: flex;
   justify-content: center;
@@ -99,6 +120,7 @@ p {
   writing-mode: vertical-rl;
   text-align: center;
   font-size: 3.5rem;
+  color: #fff;
 }
 
 /* Vatican part */
@@ -118,7 +140,7 @@ p {
   padding: 10px;
 }
 .vaticanpa{
-  font-size: 1.3rem;
+  font-size: 17px;
 }
 /* Bernini part */
 .bernini_part{
@@ -135,7 +157,7 @@ p {
 }
 .berninip{
   width: 700px;
-  font-size: 1.3rem;
+  font-size: 17px;
   padding: 10px;
 }
 
@@ -155,7 +177,7 @@ p {
   padding: 10px;
 }
 .vittoriop{
-  font-size: 1.3rem;
+  font-size: 17px;
 
 }
 
@@ -198,7 +220,7 @@ footer {
   font-size: 2em;
 }
 .sentence_1 {
-  font-size: 1.3em;
+  font-size: 17px;
 }
 .footer_m {
   display: flex;

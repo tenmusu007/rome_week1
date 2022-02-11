@@ -1,9 +1,10 @@
 body {
   background-color: #fff;
   margin: 0;
+  font-family: 'Playfair Display', serif;
 }
 header {
-  font-size: 20px;
+  font-size: 30px;
   position: fixed;
   width: 100%;
 }
@@ -16,7 +17,12 @@ span {
 }
 p {
   margin: 0;
+  font-size: 17px;
 }
+h2{
+  font-size: 35px
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 /* menu */
 .menu_bar {
   padding: 15px 10px 10px 15px;
@@ -30,13 +36,27 @@ p {
 .history,
 .food,
 .pic_palce {
-  color: white;
+  color: black;
 }
-
+.rome:hover{
+  opacity: 0.6;
+}
+.info:hover{
+  opacity: 0.6;
+}
+.history:hover{
+  opacity: 0.6;
+}
+.food:hover{
+  opacity: 0.6;
+}
+.pic_palce:hover{
+  opacity: 0.6;
+}
 /* colossem */
 .pic_box1 {
   width: 100%;
-  height: 618px;
+  height: 1200px;
   background-image: url(images/home_colossem.jpg);
   background-size: cover;
   background-position: center 66%;
@@ -52,6 +72,7 @@ p {
 .sent_info {
   width: 35%;
   text-align: center;
+  padding: 0 5% 0 5%;
 }
 .pic_box2 {
   width: 65%;
@@ -67,6 +88,9 @@ p {
 }
 .sent_history {
   text-align: center;
+}
+.sent_history p{
+  padding: 0 5% 0 5%;
 }
 .space {
   width: 25%;
@@ -142,7 +166,7 @@ footer {
   font-size: 2em;
 }
 .sentence_1 {
-  font-size: 1.3em;
+  font-size: 17px;
 }
 .footer_m {
   display: flex;
