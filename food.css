@@ -1,9 +1,10 @@
 body {
-    background-color: #fff;
+    background-color: #ffe2bf54;
     margin: 0;
+    font-family: 'Playfair Display', serif;
   }
   header {
-    font-size: 20px;
+    font-size: 30px;
     position: fixed;
     width: 100%;
   }
@@ -16,11 +17,16 @@ body {
   }
   p {
   margin: 0;
+  font-size: 20px;
 }
  h1{
    text-align: center;
    padding:10% 5% 2.5% 5%;
  }
+ h2{
+  font-size: 35px
+}
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
   /* menu */
   .menu_bar {
     padding: 15px 10px 10px 15px;
@@ -34,7 +40,22 @@ body {
   .history,
   .food,
   .pic_palce {
-    color: #fff;
+    color: #000;
+  }
+  .rome:hover{
+    opacity: 0.6;
+  }
+  .info:hover{
+    opacity: 0.6;
+  }
+  .history:hover{
+    opacity: 0.6;
+  }
+  .food:hover{
+    opacity: 0.6;
+  }
+  .pic_palce:hover{
+    opacity: 0.6;
   }
 /* food */
 .food_title{
@@ -98,7 +119,7 @@ footer {
   font-size: 2em;
 }
 .sentence_1 {
-  font-size: 1.3em;
+  font-size: 17px;
 }
 .footer_m {
   display: flex;
